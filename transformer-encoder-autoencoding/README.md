@@ -54,7 +54,9 @@ The model uses the **BERT-style Encoder** architecture, which consists of:
 
 The following diagram illustrates the internal components of a Transformer Encoder, including embedding, positional encoding, self-attention, and feed-forward layers.
 
-![Transformer Encoder Architecture](https://jalammar.github.io/images/t/transformer_encoder.png)
+![Transformer Encoder Diagram](https://github.com/PiruthiviP/CS23049-LARGE-LANGUAGE-MODELS/blob/main/transformer-encoder-autoencoding/pics/Screenshot%202026-01-08%20at%2011.59.49%E2%80%AFAM.png)
+
+![Masked Language Model Diagram](https://github.com/PiruthiviP/CS23049-LARGE-LANGUAGE-MODELS/blob/main/transformer-encoder-autoencoding/pics/Screenshot%202026-01-08%20at%2012.00.12%E2%80%AFPM.png)
 
 ```mermaid
 graph TD
@@ -93,7 +95,10 @@ We tested the model on 10 student samples. The model successfully used context t
 ### 2. Attention Visualization
 Below is the **Self-Attention Heatmap** generated during the experiment.
 
-![Self-Attention Heatmap](results/attention_heatmap.png)
+## 📸 Model Output / Visualization
+
+![Model Output / Attention](https://github.com/PiruthiviP/CS23049-LARGE-LANGUAGE-MODELS/blob/main/transformer-encoder-autoencoding/pics/Screenshot%202026-01-08%20at%2012.07.10%E2%80%AFPM.png)
+
 
 **Observation:**
 *   The heatmap shows how much importance (attention) one word gives to another.
